@@ -1,0 +1,139 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/content_container"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:background="@drawable/_bg__sign_in_ek2_shape">
+
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:fillViewport="true">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:padding="0dp">
+
+
+			<RelativeLayout
+				android:id="@+id/content_container1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:background="@drawable/_bg__sign_in_ek2_shape">
+
+				<ImageView
+					android:id="@+id/ellipse_5_ek2"
+					android:layout_width="346dp"
+					android:layout_height="461dp"
+					android:layout_alignParentStart="true"
+					android:layout_alignParentEnd="true"
+					android:layout_marginStart="-42dp"
+					android:layout_marginTop="275dp"
+					android:layout_marginEnd="79dp"
+					android:backgroundTint="@android:color/transparent"
+					android:contentDescription="ellipse_5_ek2"
+					android:src="@drawable/ellipse_5_ek1_new" />
+
+				<Button
+					android:id="@+id/btn_get_started"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_below="@id/txt_intro_msg"
+					android:layout_alignParentStart="true"
+					android:layout_alignParentEnd="true"
+					android:layout_marginStart="123dp"
+					android:layout_marginTop="40dp"
+					android:layout_marginEnd="123dp"
+					android:background="@drawable/btn_corner_round"
+					android:backgroundTint="@color/_bg__user_info_ek2_color"
+					android:text="Get Started.."
+					android:textColor="@color/white" />
+
+				<TextView
+					android:id="@+id/txt_lbl_qut_login"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_below="@id/btn_get_started"
+					android:layout_alignParentStart="true"
+					android:layout_alignParentEnd="true"
+					android:layout_gravity="center_horizontal|center"
+					android:layout_marginStart="15dp"
+					android:layout_marginLeft="15dp"
+					android:layout_marginTop="25dp"
+					android:layout_marginEnd="15dp"
+					android:fontFamily="Roboto"
+					android:gravity="center"
+					android:text="@string/ask_qut_login"
+					android:textColor="@color/already_have_an_account__login_color"
+					android:textSize="16sp" />
+
+				<ImageView
+					android:id="@+id/ellipse_5"
+					android:layout_width="315.43dp"
+					android:layout_height="339.57dp"
+					android:layout_alignParentEnd="true"
+					android:layout_marginStart="70.5dp"
+					android:layout_marginTop="227.43dp"
+					android:layout_marginEnd="0dp"
+					android:contentDescription="ellipse_5"
+					android:src="@drawable/ellipse_5" />
+
+
+				<TextView
+					android:id="@+id/txt_intro_msg"
+					android:layout_width="274dp"
+					android:layout_height="wrap_content"
+					android:layout_below="@+id/welcome_to_remedy"
+					android:layout_alignParentStart="true"
+					android:layout_alignParentEnd="true"
+					android:layout_marginStart="59dp"
+					android:layout_marginLeft="59dp"
+					android:layout_marginTop="310dp"
+					android:layout_marginEnd="53dp"
+					android:fontFamily="Roboto"
+					android:text="@string/intro_msg"
+					android:textColor="@color/already_have_an_account__login_color"
+					android:textSize="16sp"
+					android:textStyle="bold" />
+
+				<TextView
+					android:id="@+id/welcome_to_remedy"
+					android:layout_width="205dp"
+					android:layout_height="wrap_content"
+					android:layout_alignParentStart="true"
+					android:layout_alignParentTop="true"
+					android:layout_alignParentEnd="true"
+					android:layout_gravity="center_horizontal|center"
+					android:layout_marginStart="15dp"
+					android:layout_marginLeft="94dp"
+					android:layout_marginTop="60dp"
+					android:layout_marginEnd="15dp"
+					android:fontFamily="Poppins"
+					android:gravity="center"
+					android:text="@string/welcome_to_remedy_string"
+					android:textColor="@color/already_have_an_account__login_color"
+					android:textSize="18sp"
+					android:textStyle="bold" />
+
+				<ImageView
+					android:id="@+id/image_5"
+					android:layout_width="366dp"
+					android:layout_height="333dp"
+					android:layout_alignParentStart="true"
+					android:layout_alignParentTop="true"
+					android:layout_alignParentEnd="true"
+					android:layout_marginStart="-4dp"
+					android:layout_marginTop="80dp"
+					android:layout_marginEnd="24dp"
+					android:contentDescription="image_5"
+					android:src="@drawable/image_5" />
+
+			</RelativeLayout>
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>
+
+<!--	</ScrollView>-->
+<!--</HorizontalScrollView>-->

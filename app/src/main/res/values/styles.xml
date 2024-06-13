@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- intro styles -->
+
+	<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/colorAccent</item>
+	</style>
+
+	<style name="NoActionBarDialog" parent="Theme.MaterialComponents.Light.Dialog.Bridge">
+		<item name="windowActionBar">false</item>
+		<item name="android:windowMinWidthMajor">97%</item>
+		<item name="android:windowMinWidthMinor">97%</item>
+		<item name="windowNoTitle">true</item>
+		<item name="android:colorBackground">@android:color/transparent</item>
+		<item name="android:windowBackground">@android:color/transparent</item>
+		<item name="android:windowActionBarOverlay">false</item>
+		<item name="android:windowCloseOnTouchOutside">false</item>
+	</style>
+
+</resources>
